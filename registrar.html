@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="headerRegistrarse">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./assets/sello.png" alt="" width="110px"><a href="./index.html"></a>
+            </a>
+        </div>
+
+    </header>
+
+
+
+
+
+    <main id="main" class="main">
+        <section class="form-register">
+            <form action="" method="get" class="form-registro" id="form-registro">
+
+                <h4>Formulario de Registro</h4>
+                <div><input class="controls" type="text" id="nombre" placeholder="Nombre" required>
+                    <div id="error-nombre" class="error-text"></div>
+                </div>
+
+                <div>
+                    <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                    <div id="error-apellido" class="error-text"></div>
+                </div>
+
+
+                <div>
+                    <input class="controls" type="date" name="fecha" id="fecha" placeholder="Fecha de Nacimiento"
+                        required>
+                    <div id="error-fechaNac" class="error-text"></div>
+                </div>
+
+                <div>
+                    <input class="controls" type="email" name="email" id="email" placeholder="Email" required>
+                    <div id="error-email" class="error-text"></div>
+                </div>
+
+                <div>
+                    <input class="controls" type="password" name="password" id="password" placeholder="Contraseña"
+                        required>
+                    <div id="error-password" class="error-text"></div>
+                </div>
+
+                <div>
+                    <input class="controls" type="password" name="password2" id="password2"
+                        placeholder="Repetir Contraseña" required>
+                    <div id="error-password2" class="error-text"></div>
+                </div>
+
+                <div class="terminos">
+                    <p> <input class="check" type="checkbox" id="terminos">
+                        <label class="textoCheck" for="terminos">Estoy de acuerdo con los <a href="" target="_blank">Términos y condiciones</a></label>
+                      
+
+                    </p>
+                    <div id="error-terminos" class="error-text"></div>
+                    <div>
+                        <input class="boton" type="submit" value="Registrarse">
+                    </div>
+
+                    <p><a href="#">Ya estoy registrado</a></p>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+    <script src="./js/registro.js"></script>
+    <script src="./js/registro2.js"></script>
+
+
+</body>
+
+
+</html>

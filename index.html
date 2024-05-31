@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="https://kit.fontawesome.com/35ea12a187.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Turismo Ushuaia</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="nav-menu" class="nav-menu">
+                <div class="logo"> <div class="animate__animated animate__flip">
+                    <img src="./assets/sello.png" alt="" width="110px">
+                </div>
+                </div>
+
+
+                <div class="search">
+                    <input type="text" placeholder="Search" />
+                    <span><i class="ri-search-line"></i></span>
+                </div>
+
+
+                <ul class="lista">
+                    <button class="bm">
+                        <li class="menu"><a href="#inicio">INICIO</a></li>
+                    </button>
+
+                    <button class="bm">
+                        <li class="menu"><a href="#trekking">TREKKING</a></li>
+                    </button>
+
+                    <button class="bm">
+                        <li class="menu"><a href="#contacto">CONTACTO</a></li>
+                    </button>
+
+                    <button class="bm">
+                        <li class="menu"><a href="/registrar.html">REGISTRARSE</a></li>
+                    </button>
+
+
+                    <button class="login">
+                        <li class="menu"><a href="/iniciosesion.html">INICIAR SESION</a>
+
+                        </li>
+
+
+                    </button>
+
+                </ul>
+
+
+
+
+
+            </nav>
+            <div class="content">
+                <h1>EXPLORA<br />TU DESTINO<br /><span>SOÑADO</span></h1>
+                <p>
+
+                    Animate a explorar nuevos lugares, contemplar la diversidad de paisajes mientras caminas hacia una
+                    nueva maravilla y dejas tu huella.
+
+                </p>
+                <button class="btn">Reservar</button>
+            </div>
+        </div>
+
+
+
+
+    </header>
+
+
+    <main id="trekking">
+
+        <section class="animate__animated animate__zoomIn animate__delay-1.999s">
+
+
+
+            <div class="destination__grid">
+                <div class="destination__card">
+                    <a href="./detalle.html"> <img src="./assets/laguna.png" alt="destination" /></a>
+
+
+                    <div class="card__content">
+                        <h4>Laguna Esmeralda</h4>
+                        <p>
+                            Atravesando bosques y turbales, esta laguna enclavada entre montañas te invita a contemplar
+                            su belleza luego de una mañana de trekking en el fin del mundo.
+                            Duración: 5h
+                            <br>
+                            Longitud: 9km
+                            <br>
+                            Dificultad: Media
+                        </p>
+                        <button class="btn">Leer más</button>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <a href="./detalle.html"> <img src="./assets/martial1.jpg" alt="destination" /></a>
+                    <div class="card__content">
+                        <h4>Glaciar Martial</h4>
+                        <p>
+                            Descubrí una excelente vista panorámica de la ciudad de Ushuaia, el Canal Beagle y los Andes
+                            fueguinos, a pocos kilómetros de la ciudad.
+                            <br>
+                            Duración: 4 h
+                            <br>
+                            Longitud: 6km
+                            <br>
+                            Dificultad: Alta
+                        </p>
+                        <button class="btn">Leer más</button>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <a href="./detalle.html"> <img src="./assets/lostempanos.jpg" alt="destination" /> </a>
+                    <div class="card__content">
+                        <h4>Glaciar Venciguerra</h4>
+                        <p>
+                            Llegá a este magnífico lugar, atravesando un valle, un turbal y ascendiendo por la ladera
+                            rocosa de una montaña. Las vistas del glaciar y la Laguna de los Témpanos son imperdibles.
+                            <br>
+                            Duración: 9 h
+                            <br>
+                            Longitud: 10km
+                            <br>
+                            Dificultad: Media
+                        </p>
+                        <button class="btn">Leer más</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <section class="clima" id="clima">
+            <div class="contenedor" id="contenedor">
+                <div id="caja1">
+                    <h3 id="temperatura-valor"></h3>
+                    <h3 id="temperatura-descripcion"></h3>
+                </div>
+                <div id="caja2">
+                    <h3 id="ubicacion"></h3>
+                    <img id="icono-animado" src="animated" alt="" height="128" width="128">
+                </div>
+                <div id="caja3">
+                    <h3>Veloc. del Viento</h3>
+                    <h3 id="viento-velocidad"></h3>
+                </div>
+
+        </section>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <div class="contacto" id="contacto">
+                <h2>CONTACTO</h2>
+            </div>
+            <div class="datos">
+
+                <div>
+                    <a href="#" title="whatsapp" target="_blank">
+
+                        <i class="fa-brands fa-square-whatsapp fa-lg" style="font-size: 40px; color: #57af4b;">
+                        </i><b> 11-4444-5555</b></a>
+                </div>
+
+
+
+
+                <div>
+                    <a href="https://www.google.com/intl/es-419/gmail/about/">
+                        <i class="fa-solid fa-envelope" style="font-size: 33px; color: #929292;"></i>
+                        </i> <b> ushuaiatrekking@gmail.com</b></a>
+                </div>
+
+
+
+                <div>
+                    <a href="https://linkedin.com/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"
+                            style="font-size: 36px;color: rgb(8, 8, 131);"></i><b> Linkedin</b></a>
+
+                </div>
+            </div>
+            <br> <br>
+            <p class="derechos">Todos los derechos reservados Codo a Codo</p>
+        </div>
+
+
+    </footer>
+    <script src="./js/api.js"></script>
+
+</body>
+
+</html>
